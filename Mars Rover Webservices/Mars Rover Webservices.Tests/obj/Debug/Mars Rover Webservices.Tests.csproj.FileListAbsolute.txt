@@ -1,6 +1,5 @@
 F:\Source\Gartner\Mars Rover Webservices\Mars Rover Webservices.Tests\obj\Debug\Mars Rover Webservices.Tests.csprojAssemblyReference.cache
 F:\Source\Gartner\Mars Rover Webservices\Mars Rover Webservices.Tests\obj\Debug\Mars Rover Webservices.Tests.csproj.CoreCompileInputs.cache
-F:\Source\Gartner\Mars Rover Webservices\Mars Rover Webservices.Tests\bin\Debug\ApplicationInsights.config
 F:\Source\Gartner\Mars Rover Webservices\Mars Rover Webservices.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 F:\Source\Gartner\Mars Rover Webservices\Mars Rover Webservices.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 F:\Source\Gartner\Mars Rover Webservices\Mars Rover Webservices.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -21,7 +20,6 @@ F:\Source\Gartner\Mars Rover Webservices\Mars Rover Webservices.Tests\bin\Debug\
 F:\Source\Gartner\Mars Rover Webservices\Mars Rover Webservices.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
 F:\Source\Gartner\Mars Rover Webservices\Mars Rover Webservices.Tests\bin\Debug\System.Web.WebPages.dll
 F:\Source\Gartner\Mars Rover Webservices\Mars Rover Webservices.Tests\bin\Debug\System.Web.WebPages.Razor.dll
-F:\Source\Gartner\Mars Rover Webservices\Mars Rover Webservices.Tests\bin\Debug\System.Web.Optimization.dll
 F:\Source\Gartner\Mars Rover Webservices\Mars Rover Webservices.Tests\bin\Debug\Mars Rover Webservices.pdb
 F:\Source\Gartner\Mars Rover Webservices\Mars Rover Webservices.Tests\bin\Debug\Mars Rover Webservices.dll.config
 F:\Source\Gartner\Mars Rover Webservices\Mars Rover Webservices.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
@@ -36,7 +34,9 @@ F:\Source\Gartner\Mars Rover Webservices\Mars Rover Webservices.Tests\bin\Debug\
 F:\Source\Gartner\Mars Rover Webservices\Mars Rover Webservices.Tests\bin\Debug\System.Web.WebPages.xml
 F:\Source\Gartner\Mars Rover Webservices\Mars Rover Webservices.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
 F:\Source\Gartner\Mars Rover Webservices\Mars Rover Webservices.Tests\bin\Debug\System.Web.WebPages.Razor.xml
-F:\Source\Gartner\Mars Rover Webservices\Mars Rover Webservices.Tests\bin\Debug\System.Web.Optimization.xml
 F:\Source\Gartner\Mars Rover Webservices\Mars Rover Webservices.Tests\obj\Debug\Mars Rover Webservices.Tests.csproj.CopyComplete
 F:\Source\Gartner\Mars Rover Webservices\Mars Rover Webservices.Tests\obj\Debug\Mars Rover Webservices.Tests.dll
 F:\Source\Gartner\Mars Rover Webservices\Mars Rover Webservices.Tests\obj\Debug\Mars Rover Webservices.Tests.pdb
+F:\Source\Gartner\Mars Rover Webservices\Mars Rover Webservices.Tests\bin\Debug\WebActivatorEx.dll
+F:\Source\Gartner\Mars Rover Webservices\Mars Rover Webservices.Tests\bin\Debug\Swashbuckle.Core.dll
+F:\Source\Gartner\Mars Rover Webservices\Mars Rover Webservices.Tests\bin\Debug\Mars Rover Webservices.xml
