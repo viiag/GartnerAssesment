@@ -5,7 +5,7 @@
  */
 package io.swagger.client.api
 
-import io.swagger.client.model.InlineResponse201
+import io.swagger.client.model.InlineResponse200
 import io.swagger.client.model.InlineResponse400
 import io.swagger.client.model.MovementInstruction
 import io.swagger.client.model.MovementInstruction1
@@ -23,70 +23,68 @@ object DefaultApi {
    * Expected answers:
    *   code 201 :  (Rover created)
    *   code 400 : InlineResponse400 (Invalid request)
-   *   code 500 : InlineResponse400 (Server Error)
    * 
    * @param roverInfo Rover to create.
    */
-  def roversPost(roverInfo: Option[RoverInfo] = None): ApiRequest[Unit] =
-    ApiRequest[Unit](ApiMethods.POST, "https://172.24.159.215/api", "/rovers", "application/json")
+  def apiRoversPost(roverInfo: Option[RoverInfo] = None): ApiRequest[Unit] =
+    ApiRequest[Unit](ApiMethods.POST, "https://localhost", "/api/rovers", "application/json")
       .withBody(roverInfo)
       .withSuccessResponse[Unit](201)
       .withErrorResponse[InlineResponse400](400)
-      .withErrorResponse[InlineResponse400](500)
         /**
    * 
    * 
    * Expected answers:
-   *   code 201 : InlineResponse201 (Created)
+   *   code 200 : InlineResponse200 (Created)
    *   code 400 : InlineResponse400 (Invalid request)
-   *   code 500 : InlineResponse400 (Server Error)
+   *   code 404 :  (Rover does not exist)
    * 
    * @param roverId 
    * @param movementInstruction Rover Id
    */
-  def roversRoverIdPositionsGet(roverId: Int, movementInstruction: Option[MovementInstruction] = None): ApiRequest[InlineResponse201] =
-    ApiRequest[InlineResponse201](ApiMethods.GET, "https://172.24.159.215/api", "/rovers/{roverId}/positions", "application/json")
+  def apiRoversRoverIdPositionsGet(roverId: Int, movementInstruction: Option[MovementInstruction] = None): ApiRequest[InlineResponse200] =
+    ApiRequest[InlineResponse200](ApiMethods.GET, "https://localhost", "/api/rovers/{roverId}/positions", "application/json")
       .withBody(movementInstruction)
       .withPathParam("roverId", roverId)
-      .withSuccessResponse[InlineResponse201](201)
+      .withSuccessResponse[InlineResponse200](200)
       .withErrorResponse[InlineResponse400](400)
-      .withErrorResponse[InlineResponse400](500)
+      .withErrorResponse[Unit](404)
         /**
    * 
    * 
    * Expected answers:
-   *   code 201 : InlineResponse201 (Created)
+   *   code 200 : InlineResponse200 (Position Updated)
    *   code 400 : InlineResponse400 (Invalid request)
-   *   code 500 : InlineResponse400 (Server Error)
+   *   code 404 :  (Rover does not exist)
    * 
    * @param roverId 
    * @param movementInstruction Movement instruction
    */
-  def roversRoverIdPositionsPut(roverId: Int, movementInstruction: Option[MovementInstruction1] = None): ApiRequest[InlineResponse201] =
-    ApiRequest[InlineResponse201](ApiMethods.PUT, "https://172.24.159.215/api", "/rovers/{roverId}/positions", "application/json")
+  def apiRoversRoverIdPositionsPut(roverId: Int, movementInstruction: Option[MovementInstruction1] = None): ApiRequest[InlineResponse200] =
+    ApiRequest[InlineResponse200](ApiMethods.PUT, "https://localhost", "/api/rovers/{roverId}/positions", "application/json")
       .withBody(movementInstruction)
       .withPathParam("roverId", roverId)
-      .withSuccessResponse[InlineResponse201](201)
+      .withSuccessResponse[InlineResponse200](200)
       .withErrorResponse[InlineResponse400](400)
-      .withErrorResponse[InlineResponse400](500)
+      .withErrorResponse[Unit](404)
         /**
    * 
    * 
    * Expected answers:
    *   code 200 :  (Rover updated)
    *   code 400 : InlineResponse400 (Invalid request)
-   *   code 500 : InlineResponse400 (Server Error)
+   *   code 404 :  (Rover does not exist)
    * 
    * @param roverId 
    * @param roverInfo Rover to update.
    */
-  def roversRoverIdPut(roverId: Int, roverInfo: Option[RoverInfo1] = None): ApiRequest[Unit] =
-    ApiRequest[Unit](ApiMethods.PUT, "https://172.24.159.215/api", "/rovers/{roverId}", "application/json")
+  def apiRoversRoverIdPut(roverId: Int, roverInfo: Option[RoverInfo1] = None): ApiRequest[Unit] =
+    ApiRequest[Unit](ApiMethods.PUT, "https://localhost", "/api/rovers/{roverId}", "application/json")
       .withBody(roverInfo)
       .withPathParam("roverId", roverId)
       .withSuccessResponse[Unit](200)
       .withErrorResponse[InlineResponse400](400)
-      .withErrorResponse[InlineResponse400](500)
+      .withErrorResponse[Unit](404)
       
 
 }

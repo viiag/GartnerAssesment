@@ -61,19 +61,19 @@ libraryDependencies += "io.swagger" % "swagger-client" % "1.0.0"
 
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://172.24.159.215/api*
+All URIs are relative to *https://localhost*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*DefaultApi* | [**roversPost**](DefaultApi.md#roversPost) | **POST** /rovers | Create a rover.
-*DefaultApi* | [**roversRoverIdPositionsGet**](DefaultApi.md#roversRoverIdPositionsGet) | **GET** /rovers/{roverId}/positions | Get current rover position.
-*DefaultApi* | [**roversRoverIdPositionsPut**](DefaultApi.md#roversRoverIdPositionsPut) | **PUT** /rovers/{roverId}/positions | Move a rover.
-*DefaultApi* | [**roversRoverIdPut**](DefaultApi.md#roversRoverIdPut) | **PUT** /rovers/{roverId} | Rename a rover.
+*DefaultApi* | [**apiRoversPost**](DefaultApi.md#apiRoversPost) | **POST** /api/rovers | Create a rover.
+*DefaultApi* | [**apiRoversRoverIdPositionsGet**](DefaultApi.md#apiRoversRoverIdPositionsGet) | **GET** /api/rovers/{roverId}/positions | Get current rover position.
+*DefaultApi* | [**apiRoversRoverIdPositionsPut**](DefaultApi.md#apiRoversRoverIdPositionsPut) | **PUT** /api/rovers/{roverId}/positions | Move a rover.
+*DefaultApi* | [**apiRoversRoverIdPut**](DefaultApi.md#apiRoversRoverIdPut) | **PUT** /api/rovers/{roverId} | Rename a rover.
 
 
 ## Documentation for Models
 
- - [InlineResponse201](InlineResponse201.md)
+ - [InlineResponse200](InlineResponse200.md)
  - [InlineResponse400](InlineResponse400.md)
  - [MovementInstruction](MovementInstruction.md)
  - [MovementInstruction1](MovementInstruction1.md)
