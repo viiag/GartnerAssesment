@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  marsroverwebservices:
+    image: ${DOCKER_REGISTRY}marsroverwebservices
+    build:
+      context: .\Mars Rover Webservices
+      dockerfile: Dockerfile
