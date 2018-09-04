@@ -26,5 +26,16 @@ namespace Mars_Rover_Webservices.Models
                 return _rovers;
             }
         }
+
+        /// <summary>
+        /// Resets the context to be empty
+        /// </summary>
+        /// <remarks>
+        /// This is only here since we're using this as a defacto in memory storage system.
+        /// </remarks>
+        internal static void ResetContext()
+        {
+            _rovers = new Dictionary<int, Rover>();
+        }
     }
 }
