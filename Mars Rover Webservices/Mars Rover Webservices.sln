@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mars Rover Webservices", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mars Rover Webservices.Tests", "Mars Rover Webservices.Tests\Mars Rover Webservices.Tests.csproj", "{C3E4A6A3-B556-4F88-B07F-A1C6F499294C}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{76BDD363-114A-4817-82A1-5552179D5AD4}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{C3E4A6A3-B556-4F88-B07F-A1C6F499294C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3E4A6A3-B556-4F88-B07F-A1C6F499294C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3E4A6A3-B556-4F88-B07F-A1C6F499294C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{76BDD363-114A-4817-82A1-5552179D5AD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76BDD363-114A-4817-82A1-5552179D5AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{76BDD363-114A-4817-82A1-5552179D5AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{76BDD363-114A-4817-82A1-5552179D5AD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
